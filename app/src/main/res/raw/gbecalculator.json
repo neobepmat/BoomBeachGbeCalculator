@@ -1,0 +1,52 @@
+{
+  "GbeCalculatorConfiguration": {
+    "FlareConfiguration": {
+      "delta":1,
+      "values":[0,2,5,9,14,20,27,35,44,54,65]
+    },
+    "SmokeScreenConfiguration":
+    {
+      "delta":1,
+      "values":[0,2,5,9,14,20,27,35,44,54,65]
+    },
+    "ShockBombConfiguration":
+    {
+      "delta":5,
+      "values":[0,7,19,36,58,85,117]
+    },
+    "BarrageConfiguration":
+    {
+      "delta":6,
+      "values":[0,10,26,48,76,110,150,196,248]
+    },
+    "ArtilleryConfiguration":
+    {
+      "delta":2,
+      "values":[0,3,8,15,24,35,48,63,80,99,120,143,168]
+    },
+    "CrittersConfiguration":
+    {
+      "delta":5,
+      "values":[0,8,21,39,62,90,123,161,204]
+    },
+    "MedkitConfiguration":
+    {
+      "delta":3,
+      "values":[0,6,15,27,42,60,81,105,132]
+    },
+    "BattleOrdersConfiguration":
+    {
+      "delta":12,
+      "values":[0,6,24,54,96]
+    },
+    "TauntConfiguration":
+    {
+      "delta":2,
+      "values":[0,3,8,15,24]
+    },
+    "DestroyedDefensesConfiguration":
+    {
+      "delta":3
+    }
+  }
+}

@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Boom Beach GBE Calculator</string>
+    <string name="app_intent">Specify the number of single GBE weapons</string>
+    <string name="weaponBarrage">Barrage</string>
+    <string name="weaponSmokeScreen">Smoke Screen</string>
+    <string name="weaponFlare">Flare</string>
+    <string name="weaponTotalCount">Total</string>
+    <string name="weaponMedKit">Medkit</string>
+    <string name="weaponArtillery">Artillery</string>
+    <string name="weaponShockBomb">Shock Bomb</string>
+    <string name="btnResetAll">Reset All</string>
+
+    <string-array name="weaponsNumber">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
 </resources>
