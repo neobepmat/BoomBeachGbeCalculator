@@ -1,12 +1,19 @@
 package com.gbecalculator.jsonpoco;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by beppe on 05/11/17.
  */
 public class SmokeScreenConfiguration
 {
+    @SerializedName("values")
+    @Expose
     private String[] values;
 
+    @SerializedName("delta")
+    @Expose
     private String delta;
 
     public String[] getValues ()

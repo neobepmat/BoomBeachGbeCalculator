@@ -1,9 +1,16 @@
 package com.gbecalculator.jsonpoco;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class TauntConfiguration
 {
+    @SerializedName("values")
+    @Expose
     private String[] values;
 
+    @SerializedName("delta")
+    @Expose
     private String delta;
 
     public String[] getValues ()

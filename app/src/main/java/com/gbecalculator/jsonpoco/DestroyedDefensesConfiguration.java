@@ -1,7 +1,12 @@
 package com.gbecalculator.jsonpoco;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class DestroyedDefensesConfiguration
 {
+    @SerializedName("delta")
+    @Expose
     private String delta;
 
     public String getDelta ()

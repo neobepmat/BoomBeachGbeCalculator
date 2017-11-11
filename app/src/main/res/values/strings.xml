@@ -9,6 +9,10 @@
     <string name="weaponArtillery">Artillery</string>
     <string name="weaponShockBomb">Shock Bomb</string>
     <string name="btnResetAll">Reset All</string>
+    <string name="heroTaunt">Bullit - Taunt</string>
+    <string name="heroBattleOrders">Brick - BattleOrders</string>
+    <string name="weaponCritters">Critters</string>
+    <string name="defensesDestroyed">Defenses destroyed</string>
 
     <string-array name="weaponsNumber">
         <item>0</item>

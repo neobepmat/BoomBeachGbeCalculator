@@ -22,32 +22,51 @@
     <TableLayout android:layout_width="match_parent" android:layout_height="match_parent"
                  android:layout_below="@+id/textView" android:background="@color/colorBackTableLayout">
 
-        <TableRow>
+        <TableRow android:paddingBottom="@dimen/activity_horizontal_margin">
             <TextView android:gravity="left" android:text="@string/weaponFlare" style="@style/WeaponText"/>
             <Spinner android:id="@+id/spinnerFlare" android:entries="@array/weaponsNumber"></Spinner>
 
         </TableRow>
         <TableRow>
             <TextView android:gravity="left" android:text="@string/weaponSmokeScreen" style="@style/WeaponText"/>
-            <EditText android:gravity="right"/>
+            <Spinner android:id="@+id/spinnerSmokeScreen" android:entries="@array/weaponsNumber"></Spinner>
         </TableRow>
         <TableRow>
             <TextView android:gravity="left" android:text="@string/weaponShockBomb" style="@style/WeaponText"/>
-            <EditText android:gravity="right"/>
+            <Spinner android:id="@+id/spinnerShockBomb" android:entries="@array/weaponsNumber"></Spinner>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:paddingTop="@dimen/activity_horizontal_margin">
             <TextView android:gravity="left" android:text="@string/weaponBarrage" style="@style/WeaponText"/>
-            <EditText android:gravity="right"/>
+            <Spinner android:id="@+id/spinnerBarrage" android:entries="@array/weaponsNumber"></Spinner>
         </TableRow>
         <TableRow>
             <TextView android:gravity="left" android:text="@string/weaponArtillery" style="@style/WeaponText"/>
-            <EditText android:gravity="right"/>
+            <Spinner android:id="@+id/spinnerArtillery" android:entries="@array/weaponsNumber"></Spinner>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:paddingTop="@dimen/activity_horizontal_margin">
+            <TextView android:gravity="left" android:text="@string/weaponCritters" style="@style/WeaponText"/>
+            <Spinner android:id="@+id/spinnerCritters" android:entries="@array/weaponsNumber"></Spinner>
+        </TableRow>
+
+        <TableRow android:paddingTop="@dimen/activity_horizontal_margin">
             <TextView android:gravity="left" android:text="@string/weaponMedKit" style="@style/WeaponText"/>
-            <EditText android:gravity="right"/>
+            <Spinner android:id="@+id/spinnerMedkit" android:entries="@array/weaponsNumber"></Spinner>
+        </TableRow>
+
+        <TableRow android:paddingTop="@dimen/activity_horizontal_margin">
+            <TextView android:gravity="left" android:text="@string/heroTaunt" style="@style/WeaponText"/>
+            <Spinner android:id="@+id/spinnerHeroTaunt" android:entries="@array/weaponsNumber"></Spinner>
+        </TableRow>
+        <TableRow android:paddingBottom="@dimen/activity_horizontal_margin">
+            <TextView android:gravity="left" android:text="@string/heroBattleOrders" style="@style/WeaponText"/>
+            <Spinner android:id="@+id/spinnerHeroBattleOrders" android:entries="@array/weaponsNumber"></Spinner>
+        </TableRow>
+
+        <TableRow android:paddingTop="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_horizontal_margin">
+            <TextView android:gravity="left" android:text="@string/defensesDestroyed" style="@style/WeaponText"/>
+            <Spinner android:id="@+id/spinnerDefensesDestroyed" android:entries="@array/weaponsNumber"></Spinner>
         </TableRow>
 
         <TableRow android:layout_width="match_parent">
@@ -55,9 +74,9 @@
                     android:id="@+id/button"/>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:paddingTop="@dimen/activity_horizontal_margin">
             <TextView android:gravity="left" android:text="@string/weaponTotalCount" style="@style/WeaponText"/>
-            <EditText android:gravity="right"/>
+            <TextView android:gravity="right" android:text="" style="@style/WeaponText"/>
         </TableRow>
 
     </TableLayout>

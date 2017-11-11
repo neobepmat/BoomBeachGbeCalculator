@@ -2,7 +2,10 @@ package com.gbecalculator.jsonutil;
 
 import android.content.Context;
 import android.util.Log;
+import com.gbecalculator.jsonpoco.GbeConfigurationJson;
 import com.gbecalculator.main.R;
+import com.google.gson.Gson;
+
 import java.io.*;
 
 /**
@@ -52,5 +55,12 @@ public class JSONReader {
         } catch( Exception ex ) {
             Log.e(LOGTAG,"Exception during closeQuietly()", ex );
         }
+    }
+
+    public GbeConfigurationJson Deserialize_Json()
+    {
+        Gson gson = new Gson();
+        GbeConfigurationJson gbeConfigurationJson = gson.fromJson(readJson(), GbeConfigurationJson.class);
+        return gbeConfigurationJson;
     }
 }

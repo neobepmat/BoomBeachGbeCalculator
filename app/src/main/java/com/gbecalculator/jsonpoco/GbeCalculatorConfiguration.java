@@ -1,29 +1,52 @@
 package com.gbecalculator.jsonpoco;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by beppe on 05/11/17.
  */
 
 public class GbeCalculatorConfiguration
 {
+    @SerializedName("CrittersConfiguration")
+    @Expose
     private CrittersConfiguration CrittersConfiguration;
 
+    @SerializedName("SmokeScreenConfiguration")
+    @Expose
     private SmokeScreenConfiguration SmokeScreenConfiguration;
 
+    @SerializedName("BattleOrdersConfiguration")
+    @Expose
     private BattleOrdersConfiguration BattleOrdersConfiguration;
 
+    @SerializedName("BarrageConfiguration")
+    @Expose
     private BarrageConfiguration BarrageConfiguration;
 
+    @SerializedName("TauntConfiguration")
+    @Expose
     private TauntConfiguration TauntConfiguration;
 
+    @SerializedName("FlareConfiguration")
+    @Expose
     private FlareConfiguration FlareConfiguration;
 
+    @SerializedName("DestroyedDefensesConfiguration")
+    @Expose
     private DestroyedDefensesConfiguration DestroyedDefensesConfiguration;
 
+    @SerializedName("ShockBombConfiguration")
+    @Expose
     private ShockBombConfiguration ShockBombConfiguration;
 
+    @SerializedName("ArtilleryConfiguration")
+    @Expose
     private ArtilleryConfiguration ArtilleryConfiguration;
 
+    @SerializedName("MedkitConfiguration")
+    @Expose
     private MedkitConfiguration MedkitConfiguration;
 
     public CrittersConfiguration getCrittersConfiguration ()
